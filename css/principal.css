@@ -1,0 +1,31 @@
+#pg1 {
+  background-color: blue;
+  margin: 0;
+  animation: 0.8s;
+}
+#pg2 {
+  background-color: green;
+  margin: 0;
+  animation: 0.8s;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#aparecer {
+  position: relative;
+  background-color: white;
+  animation-timing-function: ease-in-out;
+  animation: aparecer 1s;
+  z-index:1;
+}  
+@keyframes aparecer {
+  from { height: 100%; }
+  to { height: 0px; }
+}
+@keyframes desaparecer {
+  from { height: 0px; }
+  to { height: 100%; }
+}
