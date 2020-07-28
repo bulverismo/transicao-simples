@@ -16,7 +16,7 @@ button {
 }
 #aparecer {
   position: relative;
-  background-color: white;
+  background-color: red;
   animation-timing-function: ease-in-out;
   animation: aparecer 1s;
   z-index:1;
